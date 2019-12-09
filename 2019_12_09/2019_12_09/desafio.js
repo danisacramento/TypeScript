@@ -1,0 +1,10 @@
+var teclado = require("@types/readline-sync");
+var titulo;
+var desc;
+titulo = teclado.question("digite o titulo");
+desc = teclado.question("digte a descricao");
+console.log("titulo = " + titulo);
+console.log("desc = " + desc);
+var result;
+result = "Estamos testando o " + titulo + " combinado com o " + desc;
+console.log(result);
