@@ -62,7 +62,7 @@ export class Produto {
         this.linkFoto = _li;
     }
     public getInfo (): string{
-        return `${this.codigo} ${this.nome} ${this.detalhes} ${this.preco}`
+        return `${this.codigo} / ${this.nome} / ${this.detalhes} / ${this.preco} / ${this.estoque} / ${this.linkFoto}`;
     }
 
 }   

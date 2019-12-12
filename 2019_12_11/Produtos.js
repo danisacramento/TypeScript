@@ -54,6 +54,9 @@ var Produto = /** @class */ (function () {
     Produto.prototype.setlinkFoto = function (_li) {
         this.linkFoto = _li;
     };
+    Produto.prototype.getInfo = function () {
+        return this.codigo + " / " + this.nome + " / " + this.detalhes + " / " + this.preco + " / " + this.estoque + " / " + this.linkFoto;
+    };
     return Produto;
 }());
 exports.Produto = Produto;
